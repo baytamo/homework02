@@ -1,0 +1,29 @@
+/* dark green - #115E55 
+mid green - #15A798
+soft light green - #DEF9F6 
+grayish green #8BA9A6 */
+
+nav {
+    background-color: #DEF9F6;
+    margin-bottom: 20px;
+}
+.navbar-brand {
+    background-color: #15A798;
+    color: #DEF9F6;
+    padding: 15px;
+}
+
+.navbar-brand:hover {
+    color: #F9F8DE;
+}
+
+.navbar-nav {
+    padding: 10px;
+}
+.navbar-nav a {
+    color: #115E55;
+}
+
+.navbar-nav a:hover {
+    color: #5E4011;
+}

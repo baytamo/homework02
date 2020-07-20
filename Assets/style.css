@@ -1,0 +1,23 @@
+/* dark green - #115E55 
+mid green - #15A798
+soft light green - #DEF9F6 
+grayish green #8BA9A6 */
+
+.welcome {
+    background-color: #DEF9F6;
+    color: #115E55;
+
+}
+hr {
+    border-style: 5px solid; 
+    color: #8BA9A6;
+}
+
+.welcome-pic {
+    float: left;
+}
+
+footer {
+    background-color: #8BA9A6;
+    color: #DEF9F6;
+}
