@@ -3,21 +3,58 @@ mid green - #15A798
 soft light green - #DEF9F6 
 grayish green #8BA9A6 */
 
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .welcome {
     background-color: #DEF9F6;
     color: #115E55;
 
 }
-hr {
-    border-style: 5px solid; 
-    color: #8BA9A6;
+
+.container {
+    padding-bottom: 50px;
+}
+
+.square-holder {
+   background-color: #DEF9F6;
+    position: relative;
+    justify-items: left;
+}
+h3 {
+    font-weight: bold;
+    color: #1D4A45;
+    padding: 10px;
+    border-bottom: 2px solid lightgray; 
 }
 
 .welcome-pic {
     float: left;
 }
 
+.portfolio-pic {
+    width: 200px;
+    position: relative;
+    margin: 10px;
+}
+
+.portfolio-text {
+    position: absolute;
+    bottom: 0px;
+    padding: 2px;
+    background-color: #15A798;
+    color: #DEF9F6;
+}
+.welcome-section {
+    margin-bottom: 20px;
+}
+
+.contact-box {
+    background-color: #DEF9F6;
+}
 footer {
     background-color: #8BA9A6;
     color: #DEF9F6;
+    padding: 10px; 
+    text-align: center;   
 }

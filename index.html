@@ -22,40 +22,46 @@
   </head>
 
   <body>
+    <!-- this container holds navbar and all content except footer -->
     <div class="container">
       <!-- begin navigation bar -->
-      <nav class="navbar-expand row pb-20">
+      <nav class="navbar-expand row">
         <!-- name link -->
-        <div class="col">
-          <a class="navbar-brand" href="#">Rachael Martinez</a>
+        <div class="col col-xs-12 justify-content-xs-center">
+          <a class="navbar-brand" href="about.html">Rachael Martinez</a>
         </div>
         <!-- menu -->
-        <div
-          class="col navbar-nav d-flex justify-content-sm-end d-flex justify-content-xs-center"
-        >
-          <a class="nav-item nav-link" href="#">Features</a>
+        
+          <div class="navbar-nav col col-xs-12 justify-content-xs-center d-flex justify-content-sm-end">
+            
+            <a class="nav-item nav-link" href="about.html">About</a>
 
-          <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
 
-          <a class="nav-item nav-link" href="#">Pricing</a>
-        </div>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </div>
       </nav>
+      
+      <!-- end navigation bar -->
 
+      <!-- main content container -->
       <div class="container welcome-content">
         <div class="row">
+          <!-- this container pairs with placeholder column -->
           <div class="welcome col-md-8">
+            <!-- welcome header -->
             <header>
               <h3>Welcome!</h3>
-              <hr />
             </header>
-            <div class="welcome-section">
+            <!-- this holds pictures and text -->
+            <section class="welcome-section">
               <img
-                class="welcome-pic rounded pr-10"
+                class="welcome-pic rounded col-xs-12"
                 alt="Rachael massaging a client"
                 width="150px"
                 src="Assets/Images/DSC08182.jpg"
               />
-              <p>
+              <p class="col-xs-12">
                 Full Faith and Credit shall be as valid against the United
                 States, whose Appointments are not herein otherwise provided
                 for, and which shall be necessary to a Choice. And the Congress
@@ -74,7 +80,7 @@
                 United States
               </p>
 
-              <p>
+              <p class="col-xs-12">
                 We the People of the United States under this Constitution, as
                 under the Confederation. The House of Representatives shall
                 chuse their other Officers, and the Authority of training the
@@ -87,12 +93,15 @@
                 escaping into another, shall, in Consequence of any particular
                 State.
               </p>
-            </div>
+            </section>
           </div>
+
+          <!-- invisible placeholder column for medium+ screens -->
           <div class="col-md-4"></div>
         </div>
       </div>
     </div>
-    <footer>Bay Bodywork, 2020.</footer>
+   
+    <footer class="fixed-bottom">Bay Bodywork, 2020.</footer>
   </body>
 </html>

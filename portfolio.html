@@ -1,72 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bay Bodywork</title>
 
-    <link rel="icon" href="assets/images/titlelogo.png" type="image/x-icon"/>
+    <link rel="icon" href="assets/images/titlelogo.png" type="image/x-icon" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="assets/style.css"/>
-</head>
+    <link rel="stylesheet" href="assets/style.css" />
 
-<body>
-<div class="row">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         
-        <a class="navbar-brand" href="index.html">Rachael Martinez</a>
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
+    <link rel="stylesheet" href="assets/navbar.css" />
+  </head>
 
-
-        <div class="collapse navbar-collapse col" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+  <body>
+    <div class="container">
+      <!-- begin navigation bar -->
+      <nav class="navbar-expand row">
+        <!-- name link -->
+        <div class="col col-xs-12 justify-content-xs-center">
+          <a class="navbar-brand" href="about.html">Rachael Martinez</a>
         </div>
-    </nav>
-</div>
+        <!-- menu -->
+        
+          <div class="navbar-nav col col-xs-12 justify-content-xs-center d-flex justify-content-sm-end">
+            
+            <a class="nav-item nav-link" href="about.html">About</a>
 
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
 
-<div class="container">
-  <h3>Portfolio</h3>
-  <div class="row">
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </div>
+      </nav>
+      <!-- end navigation bar -->
 
-    <div class="col">
-      <img src="https://via.placeholder.com/150" alt="placeholder"/>  
-      (Equinox)
+      <div class="container">
+        <div class="row">
+          <section class="square-holder col-xs-12 col-sm-8">
+            <h3>Portfolio</h3>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <img
+                  class="portfolio-pic"
+                  src="Assets/Images/DSC08182.jpg"
+                  alt="placeholder"
+                />
+                <p class="portfolio-text">
+                  Equinox
+                </p>
+              </div>
+
+              <div class="-sm-6-xs-12 col-sm-6">
+                <img
+                  class="portfolio-pic"
+                  src="Assets/Images/DSC08182.jpg"
+                  alt="placeholder"
+                />
+                <p class="portfolio-text">
+                  Oracle Team USA
+                </p>
+              </div>
+
+              <div class="col-xs-12 col-sm-6">
+                <img
+                  class="portfolio-pic"
+                  src="Assets/Images/DSC08182.jpg"
+                  alt="placeholder"
+                />
+                <p class="portfolio-text">
+                  Team inGamba
+                </p>
+              </div>
+
+              <div class="col-xs-12 col-sm-6">
+                <img
+                  class="portfolio-pic"
+                  src="Assets/Images/DSC08182.jpg"
+                  alt="placeholder"
+                />
+                <p class="portfolio-text">
+                  7 x 7
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- end of row div -->
+      </div>
     </div>
+    <!-- end of container div -->
 
-    <div class="col">
-      <img src="https://via.placeholder.com/150" alt="placeholder"/> 
-      (Oracle Team USA)
-    </div>
-
-    <div class="col">
-      <img src="https://via.placeholder.com/150" alt="placeholder"/>   
-      (Team inGamba)
-    </div>
-
-    <div class="col">
-      <img src="https://via.placeholder.com/150" alt="placeholder"/>   
-      (7x7)
-    </div>
-  </div>
-  <!-- end of row div -->
-</div>
-<!-- end of container div -->
-
-<footer>Bay Bodywork, 2020.</footer>
-</body>
+    <footer class="fixed-bottom">Bay Bodywork, 2020.</footer>
+  </body>
 </html>
