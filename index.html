@@ -11,28 +11,30 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
 
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
 
-    <link rel="stylesheet" href="assets/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="assets/navbar.css" />
 
-    <link rel="stylesheet" href="assets/queries.css" />
+    <link rel="stylesheet" type="text/css" href="assets/queries.css" />
   </head>
 
   <body>
     <!-- this container holds navbar and all content except footer -->
     <div class="container">
       <!-- begin navigation bar -->
-      <nav class="navbar-expand row">
-        <!-- name link -->
-        <div class="col col-xs-12 justify-content-xs-center">
+      <nav class="navbar-expand-lg">
+
+        <!-- name on top left -->
+        <div class="col-xs-12 d-flex justify-content-xs-center float-xs-left">
           <a class="navbar-brand" href="about.html">Rachael Martinez</a>
         </div>
-        <!-- menu -->
+
+        <!-- menu on top right-->
         
-          <div class="navbar-nav col col-xs-12 justify-content-xs-center d-flex justify-content-sm-end">
+        <div class="row">
+          <div class="navbar-nav col-xs-12 d-flex justify-content-xs-center d-flex justify-content-sm-end">
             
             <a class="nav-item nav-link" href="about.html">About</a>
 
@@ -40,6 +42,8 @@
 
             <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
+        </div>  
+        
       </nav>
       
       <!-- end navigation bar -->
