@@ -11,101 +11,74 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"/>
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/style.css" />
 
-    <link rel="stylesheet" type="text/css" href="assets/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/navbar.css" />
 
-    <link rel="stylesheet" type="text/css" href="assets/queries.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/queries.css" />
   </head>
 
   <body>
-    <!-- this container holds navbar and all content except footer -->
-    <div class="container">
-      <!-- begin navigation bar -->
-      <nav class="navbar-expand-lg">
+    <!-- begin navigation bar -->
+    <nav class="navbar-expand mb-2 mr-0">
+      <!-- name on top left -->
+      <a
+        class="navbar-brand d-flex justify-content-center mr-0 ml-md-4 p-3"
+        href="index.html"
+        >Rachael Martinez</a
+      >
 
-        <!-- name on top left -->
-        <div class="col-xs-12 d-flex justify-content-xs-center float-xs-left">
-          <a class="navbar-brand" href="about.html">Rachael Martinez</a>
+      <!-- menu on top right-->
+      <div
+        class="navbar-nav d-flex justify-content-sm-end justify-content-center mr-0 p-2"
+      >
+        <a class="nav-item nav-link" href="about.html">About</a>
+
+        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+
+        <a class="nav-item nav-link" href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <!-- end navigation bar -->
+
+    <!-- main content container -->
+    <div class="container welcome-content m-0 m-sm-4">
+      <div class="row">
+        <!-- this container pairs with placeholder column -->
+        <div class="welcome col-md-8 p-3 m-3 m-sm-0"> 
+          <!-- welcome header -->
+          <header>
+            <h3 class="pb-2">Welcome!</h3>
+          </header>
+          <!-- this holds pictures and text -->
+          <section>
+            <img
+              class="welcome-pic rounded py-2 p-sm-2 float-left"
+              alt="Rachael massaging a client"
+              src="Assets/Images/DSC08182.jpg"
+            />
+            <p>
+              I provide massage services at two convenient locations in San
+              Francisco: the Financial District and Marina. To accommodate your
+              schedule, I have afternoon, evening and weekend availability. If
+              you have any questions or technical issues, please feel free to
+              <a href="contact.html">
+                contact me
+              </a>.
+            </p>
+          </section>
         </div>
 
-        <!-- menu on top right-->
-        
-        <div class="row">
-          <div class="navbar-nav col-xs-12 d-flex justify-content-xs-center d-flex justify-content-sm-end">
-            
-            <a class="nav-item nav-link" href="about.html">About</a>
-
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-          </div>
-        </div>  
-        
-      </nav>
-      
-      <!-- end navigation bar -->
-
-      <!-- main content container -->
-      <div class="container welcome-content">
-        <div class="row">
-          <!-- this container pairs with placeholder column -->
-          <div class="welcome col-md-8">
-            <!-- welcome header -->
-            <header>
-              <h3>Welcome!</h3>
-            </header>
-            <!-- this holds pictures and text -->
-            <section class="welcome-section">
-              <img
-                class="welcome-pic rounded col-xs-12"
-                alt="Rachael massaging a client"
-                width="150px"
-                src="Assets/Images/DSC08182.jpg"
-              />
-              <p class="col-xs-12">
-                Full Faith and Credit shall be as valid against the United
-                States, whose Appointments are not herein otherwise provided
-                for, and which shall be necessary to a Choice. And the Congress
-                may by Law, and paid out of the Treasury of the Legislature, or
-                of the Seventeenth Amendment. And for governing such Part of
-                them as may be admitted by the Congress Information of the State
-                having Jurisdiction of the Executive when the Legislature
-                thereof, Note: Changed by section 2 of the other, adjourn for
-                more than three days, nor to any other Place than that in which
-                it shall become a Law, be presented to him, the Same shall be a
-                Law, in like Manner as if he had signed it, unless the Congress
-                by their Adjournment prevent its Return, in which Case it shall
-                have been created, or the Emoluments whereof shall have been
-                elected, and he shall have Power To lay and collect Taxes,
-                Duties, Imposts and Excises shall be uniform throughout the
-                United States
-              </p>
-
-              <p class="col-xs-12">
-                We the People of the United States under this Constitution, as
-                under the Confederation. The House of Representatives shall
-                chuse their other Officers, and the Authority of training the
-                Militia according to the Rules of its Proceedings, punish its
-                Members for disorderly Behavior, and, with the Objections, to
-                the other Cases before mentioned, the supreme Court shall have
-                been created, or the other Mode of Ratification may be employed
-                in the Service of the Vice President, or when he shall exercise
-                the Office of honor, Trust or Profit under the Laws thereof,
-                escaping into another, shall, in Consequence of any particular
-                State.
-              </p>
-            </section>
-          </div>
-
-          <!-- invisible placeholder column for medium+ screens -->
-          <div class="col-md-4"></div>
-        </div>
+        <!-- invisible placeholder column for medium+ screens -->
+        <div class="col-md-4"></div>
       </div>
     </div>
-   
-    <footer class="fixed-bottom">Bay Bodywork, 2020.</footer>
+
+    <footer class="fixed-bottom p-2 d-flex justify-content-center">
+      Bay Bodywork, 2020.
+    </footer>
   </body>
 </html>

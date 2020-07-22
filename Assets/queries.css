@@ -1,12 +1,29 @@
-@media (max-width: 640px){
-    .welcome-pic {
+@media (max-width: 640px) {
+    .welcome-pic { 
+        width: 100%;
+    }
+    .navbar-brand {
+        justify-content: center;
+    }
+    .navbar-nav {
+        justify-content: center;
+    }
+    .portfolio-pic {
         width: 100%;
     }
 }
 
-
-@media (max-width:768px){ 
+@media (min-width:641px) { 
+    .navbar-brand {
+        float: left;
+    }
+    .portfolio-pic {
+        width: 100%;
+    }
 }
 
-@media (max-width: 980px){
+@media (min-width:768px) {
+    .portfolio-pic {
+        width: 100%;
+    }
 }

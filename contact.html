@@ -1,72 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bay Bodywork</title>
 
-    <link rel="icon" href="assets/images/titlelogo.png" type="image/x-icon"/>
+    <link rel="icon" href="assets/images/titlelogo.png" type="image/x-icon" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="assets/style.css"/>
+    <link rel="stylesheet" type="text/css" href="Assets/style.css" />
 
-    <link rel="stylesheet" href="assets/navbar.css" />
-</head>
+    <link rel="stylesheet" type="text/css" href="Assets/navbar.css" />
 
-<body>
+    <link rel="stylesheet" type="text/css" href="Assets/queries.css" />
+  </head>
 
-<!-- begin nav bar -->
-<div class="container">
-  <nav class="navbar-expand row">
-    <!-- name link -->
-    <div class="col">
-      <a class="navbar-brand" href="index.html">Rachael Martinez</a>
-    </div>
-    <!-- menu -->
-    <div
-      class="col menu">
-      <a class="nav-item nav-link" href="about.html">About</a>
+  <body>
+    <!-- begin navigation bar -->
+    <nav class="navbar-expand mb-2 mr-0">
+      <!-- name on top left -->
+      <a
+        class="navbar-brand d-flex justify-content-center mr-0 ml-md-4 p-3"
+        href="index.html"
+        >Rachael Martinez</a
+      >
 
-      <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+      <!-- menu on top right-->
+      <div
+        class="navbar-nav d-flex justify-content-sm-end justify-content-center mr-0 p-2"
+      >
+        <a class="nav-item nav-link" href="about.html">About</a>
 
-      <a class="nav-item nav-link" href="contact.html">Contact</a>
-    </div>
-  </nav>
+        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
 
-
-
-<div class="container">
-  
-  <div class="row"> 
-    <div class="col">
-    <form class="contact-box col-xs-12 col-sm-12 col-md-8">
-      <h3>Contact</h3>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Name</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        <a class="nav-item nav-link" href="contact.html">Contact</a>
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">E-mail address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+    </nav>
+    <!-- end navigation bar -->
+
+    <div class="container m-0 m-md-4">
+      <div class="row">
+        <div class="contact-box col-lg-8 p-3 m-3 m-md-0">
+          <header>
+            <h3 class="pb-2">Contact</h3>
+          </header>
+          <!-- begin e-mail form -->
+          <form>
+            <!-- name -->
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Name</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+
+            <!-- email dress -->
+            <div class="form-group">
+              <label for="exampleFormControlInput1">E-mail address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+
+            <!-- message -->
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="8"
+              ></textarea>
+            </div>
+          </form>
+
+          <!-- submit button -->
+          <a
+            href="mailto:nu.major@gmail.com"
+            class="btn btn-primary btn-lg active"
+            role="button"
+            aria-pressed="true"
+            >Submit</a
+          >
+        </div>
+        <!-- placeholder column -->
+        <div class="col-lg-4"></div>
       </div>
     </div>
-    <button type="submit" class="btn btn-primary" action="mailto:nu.major@gmail.com">Submit</button>
-    </form>
-  </div>
+    <!-- end of container div -->
 
- 
-</div>
-</div>
-</div>
-<!-- end of container div -->
-
-
-
-<footer class="fixed-bottom">Bay Bodywork, 2020.</footer>
-</body>
+    <footer class="fixed-bottom p-2 d-flex justify-content-center">
+      Bay Bodywork, 2020.
+    </footer>
+  </body>
 </html>
